@@ -1,0 +1,40 @@
+.background    { background: #6686ff;
+                 background-image: url("images/snowfall.gif");
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: #3bbbff; }
+.wall          { background-image: url("images/iceblock.png");
+                 background-size: 20px 20px;}
+.portal        { background-image: url("images/icecream.png");
+                 background-size: 20px 20px;
+                 background-repeat: no-repeat;}
+
+.actor  { position: absolute;  }
+.coin   { background-image: url("images/fish.png");
+          background-size: 14px 30px;
+          background-repeat: no-repeat;}
+.player { background-image: url("images/bumptyright.gif");
+          background-size: 30px 27px;
+          background-repeat: no-repeat;}
+.speed  { background-image: url("images/coffee.png");
+          background-size: 12px 16px;
+          background-repeat: no-repeat;}
+.slow   { background-image: url("images/decaf.png");
+          background-size: 12px 16px;
+          background-repeat: no-repeat;}
+
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: #75cfff;
+}
+.won .player {
+  filter: drop-shadow(-4px -7px 8px white, 4px -7px 8px white);
+}
